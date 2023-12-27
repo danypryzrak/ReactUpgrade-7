@@ -11,10 +11,10 @@ export const Form = () => {
   const handleSubmit = ev => {
     ev.preventDefault();
     const name = ev.currentTarget.name.value;
-    const number = ev.currentTarget.number.value;
+    const phone = ev.currentTarget.number.value;
     const contact = {
       name,
-      number,
+      phone,
     };
     if (
       contacts.find(
